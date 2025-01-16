@@ -4,6 +4,6 @@ class Settings:
     API_HASH  : str = str(getenv("API_HASH" , ""))
     BOT_TOKEN : str = str(getenv("BOT_TOKEN" , ""))
     MONGO_URI : str= str(getenv("MONGO_URL" , ""))
-    ADMIN : int= int(getenv("ADMIN" , 89)
+    ADMIN : int= int(getenv("ADMIN" , ""))
 )
 settings = Settings()
